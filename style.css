@@ -1,0 +1,79 @@
+    body {
+      font-family: Arial, sans-serif;
+      background: #f0f0f5;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      height: 100vh;
+      margin: 0;
+    }
+
+    .container {
+      background: linear-gradient(to right, yellow, orange);
+
+      padding: 30px;
+      border-radius: 12px;
+      box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+      width: 90%;
+      max-width: 600px;
+      text-align: center;
+    }
+
+    h1 {
+      margin-bottom: 20px;
+      color: #333;
+      text-shadow: 0 0 5px #00ff00, 0 0 10px #00ff00;
+    }
+
+    .h1color {
+      border: dotted;
+      background: whitesmoke;
+    }
+
+    textarea {
+      width: 100%;
+      background: linear-gradient(to right, rgb(57, 207, 74), #ccc);
+      height: 120px;
+      padding: 12px;
+      font-size: 16px;
+      border: linear-gradient(to right, pink, purple);
+      border-radius: 10px;
+      resize: none;
+    }
+
+    .btn-group {
+      display: flex;
+      gap: 10px;
+      justify-content: center;
+      margin-top: 15px;
+      flex-wrap: wrap;
+    }
+
+    button {
+      flex: 1;
+      min-width: 120px;
+      padding: 12px;
+      font-size: 16px;
+      border: none;
+      border-radius: 10px;
+      cursor: pointer;
+    
+    }
+
+    .speak-btn {
+      background-color: #007bff;
+      color: white;
+    }
+
+    .speak-btn:hover {
+      background-color: #0056b3;
+    }
+
+    .listen-btn {
+      background-color: #28a745;
+      color: white;
+    }
+
+    .listen-btn:hover {
+      background-color: #1e7e34;
+    }

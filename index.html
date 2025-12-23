@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Text to Speech Converter</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+ <div class="container">
+    <div><h1 class="h1color">Voice ↔ Text Converter</h1> </div>
+    <textarea id="text" placeholder="Type or speak something..."></textarea>
+
+    <div class="btn-group">
+      <button class="speak-btn" onclick="textToSpeech()">🔊 Text to Speech</button>
+      <button class="listen-btn" onclick="speechToText()">🎤 Voice to Text</button>
+    </div>
+  </div>
+<script src="script.js"></script>
+</body>
+
+</html>
